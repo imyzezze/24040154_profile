@@ -1,0 +1,47 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header { 
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2%;
+} 
+
+.education {
+    border-color: lightgoldenrodyellow;
+    border-style: dashed;
+    background-clip: border-box;
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 2%;
+}
+
+.professional {
+    border-color: lightgoldenrodyellow;
+    border-style: dashed;
+    background-clip: border-box;
+    background-color: lightblue;
+    margin-bottom: 2%;
+}
+
+.skills {
+    border-color: lightgoldenrodyellow;
+    border-style: dashed;
+    background-clip: border-box;
+    background-color: lightgrey;
+}
+
+h1 {
+    background-color: antiquewhite;
+}
+
+h2 {
+    background-color: aquamarine;
+}
